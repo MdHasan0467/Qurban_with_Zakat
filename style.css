@@ -1,0 +1,590 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #ddd;
+}
+
+header{
+  width: 100vw;
+  height: 100vh;
+  background-image:url(img/Cow01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bur{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)); /*-------< Make sure this background color has an opacity of less than 1  >--------- */
+   backdrop-filter: blur (5px); /*-------< This be the blur >--------- */
+  height: 100vh; /*-------< What's height of the blur >--------- */
+  width: 50vw; /*-------< What's width of the blur >--------- */
+
+  position: relative;
+}
+
+header .bur h1{
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: #fff;
+
+}
+
+header .bur p{
+  font-size: 20px;
+  color: rgb(190, 197, 200);
+  font-weight: 400;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+
+}
+
+header .bur .donate-btn{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  border: 1px solid #ec0000;
+  background: #ec0000;
+  padding: 10px;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+
+header .bur .donate-btn:hover{
+  border: 1px solid #860505;
+  background: #860505;
+}
+
+
+
+/*================< Header Section End here >================*/
+
+
+/*================< Explore Section Start from  here >================*/
+
+.explore-section{
+  width: 100vw;
+  height: 150vh;
+}
+.explore-section .part-one{
+  width: 100vw;
+  height: 50%;
+  position: relative;
+}
+.explore-section .part-one h1{
+  color: #000;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 40px;
+
+}
+
+.explore-section .part-one p {
+  color: #333;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-size: 22px;
+
+}
+
+
+.explore-section .part-one .explore-btn01{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid #ec0000;
+  background: #ec0000;
+  padding: 10px;
+  border-radius: 16px;
+  transition: 0.5s;
+  position: absolute;
+  top: 80%;
+  left: 20%;
+
+}
+
+.explore-section .part-one .explore-btn01:hover {
+  border: 1px solid #860505;
+  background: #860505;
+}
+
+.explore-section .part-one iframe{
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+
+
+.explore-section .part-two {
+  width: 100vw;
+  height: 50%;
+  position: relative;
+}
+
+.explore-section .part-two h1 {
+  color: #000;
+  position: absolute;
+  top: 30%;
+  right: 38%;
+  font-size: 40px;
+
+}
+
+.explore-section .part-two p {
+  color: #333;
+  position: absolute;
+  top: 55%;
+  right: 20%;
+  font-size: 22px;
+
+}
+
+
+.explore-section .part-two .explore-btn02 {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  border: 2px solid #ec0000;
+  background: #ec0000;
+  padding: 10px;
+  border-radius: 16px;
+  transition: 0.5s;
+  position: absolute;
+  top: 85%;
+  right: 43%;
+
+}
+
+.explore-section .part-two .explore-btn02:hover {
+  border: 2px solid #fff;
+  background: #860505;
+}
+
+.explore-section .part-two img {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+  left: 180px;
+  top: 20px;
+}
+
+
+
+
+
+
+
+
+.help-section{
+  width: 100vw;
+  height: 170vh;
+  position: relative;
+}
+
+.help-section-heading{
+  font-size: 40px;
+  position: absolute;
+  top: 20px;
+  left: 40%;
+}
+.help-section-heading2{
+  font-size: 40px;
+  position: absolute;
+  top: 60px;
+  left: 45%;
+}
+.help-section-pera{
+  color: #333;
+  position: absolute;
+  top: 130px;
+  left: 40%;
+}
+
+.direct-help01 {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  position: relative;
+  display: flex;
+}
+
+.Box01{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  padding: 20px 40px;
+  background: rgb(227, 224, 213);
+  transition: 0.5s;
+}
+.Box01:hover{
+  background: rgb(239, 231, 203);
+}
+
+.Box01 h1{
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.Box01 p{
+  position: absolute;
+  left: 70px;
+  top: 50%;
+}
+
+.Box01 img{
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+.Box02 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  padding: 20px 40px;
+  margin-left: 20px;
+  background: rgb(227, 224, 213);
+  transition: 0.5s;
+}
+.Box02:hover {
+  background: rgb(239, 231, 203);
+}
+.Box02 h1 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.Box02 p {
+  position: absolute;
+  left: 70px;
+  top: 50%;
+}
+
+.Box02 img {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+
+
+.direct-help02 {
+  position: absolute;
+  left: 30%;
+  top: 22%;
+  position: relative;
+  display: flex;
+}
+
+.Box03 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  padding: 20px 40px;
+  background: rgb(227, 224, 213);
+  transition: 0.5s;
+}
+
+
+.Box03:hover {
+  background: rgb(239, 231, 203);
+}
+
+
+
+.Box03 h1 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.Box03 p {
+  position: absolute;
+  left: 70px;
+  top: 50%;
+}
+
+.Box03 img {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+
+
+
+
+.Box04 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  padding: 20px 40px;
+  margin-left: 20px;
+  background: rgb(227, 224, 213);
+  transition: 0.5s;
+}
+
+.Box04:hover {
+  background: rgb(239, 231, 203);
+}
+
+.Box04 h1 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.Box04 p {
+  position: absolute;
+  left: 70px;
+  top: 50%;
+}
+
+.Box04 img {
+  position: absolute;
+  left: 10px;
+  top: 40px;
+}
+
+.img-section{
+  position: absolute;
+  top: 65%;
+  left: 15%;
+  display: flex;
+}
+
+.img-section img{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 300px;
+  height: 350px;
+  transition: 0.5s;
+}
+
+.img-section img:hover{
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.rewards-section{
+  width: 100vw;
+  height: 110vh;
+  position: relative;
+}
+
+.rewards-section h1{
+  font-size: 30px;
+  position: absolute;
+  top: 50px;
+  left: 35%;
+
+}
+
+
+.rewards-section p {
+  position: absolute;
+  top: 140px;
+  left: 35%;
+  color: #333;
+}
+
+.rewards-section .zakat-section{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  display: flex;
+}
+
+.zakat-section .Box1{
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+
+
+.zakat-section .Box1 img{
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.zakat-section .Box1 h1{
+  position: absolute;
+  top: 320px;
+  left: 30%;
+}
+
+.zakat-section .Box1 p {
+  position: absolute;
+  top: 360px;
+  left: 20%;
+}
+
+.zakat-section .Box1 a{
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  left: 20%;
+  text-decoration: none;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1pz solid #ec0000;
+  background: #ec0000;
+  transition: 0.5s;
+}
+
+.zakat-section .Box1 a:hover{
+  text-decoration: underline;
+  background: #860505;
+}
+
+
+.zakat-section .Box2 {
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+
+.zakat-section .Box2 img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.zakat-section .Box2 h1 {
+  position: absolute;
+  top: 320px;
+  left: 30%;
+}
+
+.zakat-section .Box2 p {
+  position: absolute;
+  top: 360px;
+  left: 20%;
+}
+
+.zakat-section .Box2 a {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  left: 20%;
+  text-decoration: none;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1pz solid #ec0000;
+  background: #ec0000;
+  transition: 0.5s;
+}
+
+.zakat-section .Box2 a:hover {
+  text-decoration: underline;
+  background: #860505;
+}
+
+
+.zakat-section .Box3 {
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+
+.zakat-section .Box3 img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.zakat-section .Box3 h1 {
+  position: absolute;
+  top: 320px;
+  left: 30%;
+}
+
+.zakat-section .Box3 p {
+  position: absolute;
+  top: 360px;
+  left: 20%;
+}
+
+.zakat-section .Box3 a {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 250px;
+  left: 20%;
+  text-decoration: none;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1pz solid #ec0000;
+  background: #ec0000;
+  transition: 0.5s;
+}
+
+.zakat-section .Box3 a:hover {
+  text-decoration: underline;
+  background: #860505;
+}
+
+footer{
+  background: #000;
+  width: 100vw;
+  height: 40vh;
+  position: relative;
+}
+
+footer h1{
+  color: #ddd;
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  font-size: 40px;
+}
+footer h1 span{
+   color: #ec0000;
+}
+
+footer h2 {
+  color: #ddd;
+  text-decoration: underline;
+  position: absolute;
+  top: 80px;
+  left: 42%;
+
+}
+
+
+
+
